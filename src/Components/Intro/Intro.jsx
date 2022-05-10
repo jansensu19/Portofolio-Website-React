@@ -13,6 +13,7 @@ import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import { themeContext } from '../../Context';
 import { useContext } from "react";
 import { motion } from 'framer-motion';
+import {Link} from 'react-scroll';
 
 const Intro = () => {
 
@@ -30,7 +31,7 @@ const Intro = () => {
                 <span>I'm currently focusing on Front-end Web Development. I'm graduated from STMIK Mikroskil, Medan with a Bachelor of Technology (S1)</span>
             </div>
 
-            <button className=" button i-button">Hire me</button>
+            <Link spy={true} to='Contact' smooth={true}><button className=" button i-button">Hire me</button></Link>
             <div className="i-icons">
               <a href="https://github.com/jansensu19"><img src={Github} alt="" /></a>
               <a href="https://www.linkedin.com/in/jansen-su-4a7471193/"><img src={LinkedIn} alt="" /></a>

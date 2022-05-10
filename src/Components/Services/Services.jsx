@@ -40,7 +40,7 @@ const Services = () => {
                 <Card 
                 emoji = {HeartEmoji}
                 heading = {'Design'}
-                detail = {"Photoshop, After Effects"}
+                detail = {"Photoshop, After Effects, Premiere Pro"}
                 />
             </motion.div>
             {/* second card */}
