@@ -3,7 +3,7 @@ import './Portofolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import Elearning from '../../img/elearning.png';
 import Ecommerce from '../../img/ecommerce.png';
-import HOC from '../../img/hoc.png';
+import ToDo from '../../img/todo.png';
 import MusicApp from '../../img/musicapp.png';
 import 'swiper/css'
 import { themeContext } from '../../Context';
@@ -35,7 +35,7 @@ const Portofolio = () => {
                 <img src={MusicApp} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={HOC} alt="" />
+                <img src={ToDo} alt="" />
             </SwiperSlide>
         </Swiper>
     </div>
