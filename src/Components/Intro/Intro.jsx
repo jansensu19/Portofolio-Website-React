@@ -28,7 +28,7 @@ const Intro = () => {
                 <span style={{color: darkMode? 'white' : ''}}>Hy! I Am</span>
                 <span>Jansen</span>
                 <span>Highly motivated to constantly develop my skill in Programming, Web Design, and Video Editing.</span>
-                <span>I'm currently focusing on Front-end Web Development. I'm graduated from STMIK Mikroskil, Medan with a Bachelor of Technology (S1)</span>
+                <span>I'm currently focusing on Front-end Web Development. I graduated from Universitas Mikroskil, Medan with a Banchelor of Technology (S1)</span>
             </div>
 
             <Link spy={true} to='Contact' smooth={true}><button className=" button i-button">Hire me</button></Link>
