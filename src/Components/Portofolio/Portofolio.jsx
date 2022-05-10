@@ -28,22 +28,28 @@ const Portofolio = () => {
         grabCursor={true}
         className='portofolio-slider'>
             <SwiperSlide>
-                <img src={Elearning} alt="" />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Gv5otXNd_M0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <small>Elearning</small>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={Ecommerce} alt="" />
-            </SwiperSlide>{" "}
-            <SwiperSlide>
-                <img src={BasicWeb} alt="" />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4MsqvUcUqW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <small>E-Commerce</small>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={ToDo} alt="" />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/epWWrK_EGMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <small>Basic Web</small>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={BookSelf} alt="" />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RMMQD1TUJAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <small>Dashboard ToDo with API (Angular)</small>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={Portofolios} alt="" />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aNe5zdJ-O-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <small>BookSelft DOM</small>
+            </SwiperSlide>
+            <SwiperSlide>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cRxkeUUkcPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <small>Portofolio Web with React</small>
             </SwiperSlide>
         </Swiper>
     </div>
