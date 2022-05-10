@@ -4,7 +4,9 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import Elearning from '../../img/elearning.png';
 import Ecommerce from '../../img/ecommerce.png';
 import ToDo from '../../img/todo.png';
-import MusicApp from '../../img/musicapp.png';
+import BasicWeb from '../../img/basicweb.png';
+import BookSelf from '../../img/BookSelf.png';
+import Portofolios from '../../img/portofolio.png';
 import 'swiper/css'
 import { themeContext } from '../../Context';
 import { useContext } from "react";
@@ -32,10 +34,16 @@ const Portofolio = () => {
                 <img src={Ecommerce} alt="" />
             </SwiperSlide>{" "}
             <SwiperSlide>
-                <img src={MusicApp} alt="" />
+                <img src={BasicWeb} alt="" />
             </SwiperSlide>
             <SwiperSlide>
                 <img src={ToDo} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={BookSelf} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={Portofolios} alt="" />
             </SwiperSlide>
         </Swiper>
     </div>
