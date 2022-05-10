@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portofolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Sidebar from '../../img/sidebar.png';
+import Elearning from '../../img/elearning.png';
 import Ecommerce from '../../img/ecommerce.png';
 import HOC from '../../img/hoc.png';
 import MusicApp from '../../img/musicapp.png';
@@ -26,7 +26,7 @@ const Portofolio = () => {
         grabCursor={true}
         className='portofolio-slider'>
             <SwiperSlide>
-                <img src={Sidebar} alt="" />
+                <img src={Elearning} alt="" />
             </SwiperSlide>
             <SwiperSlide>
                 <img src={Ecommerce} alt="" />
