@@ -1,12 +1,6 @@
 import React from 'react'
 import './Portofolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Elearning from '../../img/elearning.png';
-import Ecommerce from '../../img/ecommerce.png';
-import ToDo from '../../img/todo.png';
-import BasicWeb from '../../img/basicweb.png';
-import BookSelf from '../../img/BookSelf.png';
-import Portofolios from '../../img/portofolio.png';
 import 'swiper/css'
 import { themeContext } from '../../Context';
 import { useContext } from "react";
@@ -29,11 +23,11 @@ const Portofolio = () => {
         className='portofolio-slider'>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Gv5otXNd_M0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <small>Elearning</small>
+                <a href="" className='web-portofolio'><small>Elearning</small></a>
             </SwiperSlide>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/4MsqvUcUqW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <small>E-Commerce</small>
+                <a href="https://cgs-ecommerce-web.netlify.app/" className='web-portofolio'></a><small>E-Commerce</small>
             </SwiperSlide>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/epWWrK_EGMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -49,7 +43,7 @@ const Portofolio = () => {
             </SwiperSlide>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/cRxkeUUkcPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <small>Portofolio Web with React</small>
+                <a href="https://jansen-portofolio-frontend-website.netlify.app/" className='web-portofolio'><small>Portofolio Web with React</small></a>
             </SwiperSlide>
         </Swiper>
     </div>
