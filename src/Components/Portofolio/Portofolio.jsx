@@ -23,23 +23,23 @@ const Portofolio = () => {
         className='portofolio-slider'>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Gv5otXNd_M0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <a href="" className='web-portofolio'><small>Elearning</small></a>
+                <a href="https://elearning-cuda.netlify.app/" className='web-portofolio'><small>Elearning</small></a>
             </SwiperSlide>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/4MsqvUcUqW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <a href="https://cgs-ecommerce-web.netlify.app/" className='web-portofolio'></a><small>E-Commerce</small>
+                <a href="https://cgs-ecommerce-web.netlify.app/" className='web-portofolio'><small>E-Commerce</small></a>
             </SwiperSlide>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/epWWrK_EGMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <small>Basic Web</small>
+                <a href="https://slit.netlify.app/" className='web-portofolio'><small>Basic Web</small></a>
             </SwiperSlide>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/RMMQD1TUJAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <small>Dashboard ToDo with API (Angular)</small>
+                <a href="https://github.com/jansensu19/Dashboard" className='web-portofolio'><small>Dashboard ToDo with API (Angular)</small></a>
             </SwiperSlide>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/aNe5zdJ-O-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <small>BookSelft DOM</small>
+                <a href="https://bookself-dom.netlify.app/" className='web-portofolio'><small>BookSelf DOM</small></a>
             </SwiperSlide>
             <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/cRxkeUUkcPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
