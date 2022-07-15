@@ -10,6 +10,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import {themeContext} from './Context';
 import { useContext } from "react";
+import VideoPortofolio from "./Components/Portofolio/VideoPortofolio";
 
 function App() {
   const theme = useContext(themeContext);
@@ -21,9 +22,10 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
-      <Experience />
+      {/*<Experience />*/}
       {/*<Works />*/}
       <Portofolio />
+      <VideoPortofolio />
       {/*<Testimonials /> */}
       <Contact />
       <Footer />

@@ -47,3 +47,12 @@
 .web-portofolio:hover{
     color: aqua;
 }
+
+.swiper-pagination{
+    position: absolute;
+    top: 360px
+}
+
+.portofolio-slider .swiper-pagination-bullet-active{
+    background: #FCA61F;
+}
