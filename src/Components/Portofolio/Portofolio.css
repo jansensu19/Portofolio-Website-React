@@ -50,9 +50,13 @@
 
 .swiper-pagination{
     position: absolute;
-    top: 360px
+    top: 380px
 }
 
 .portofolio-slider .swiper-pagination-bullet-active{
     background: #FCA61F;
+}
+
+.git{
+    margin-left: 10px;
 }
