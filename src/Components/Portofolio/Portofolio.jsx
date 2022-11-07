@@ -33,6 +33,10 @@ const Portofolio = () => {
                 <a href="https://jansen-portofolio-frontend-website.netlify.app/" className='web-portofolio'><small>Portofolio Web with React</small></a> <a href="https://github.com/jansensu19/Portofolio-Website-React"><Github color='black' size='2rem' className="git"/></a>
             </SwiperSlide>
             <SwiperSlide>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uG7PZf5ZnCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://kincir-tech.netlify.app/" className='web-portofolio'><small>Kincir Tech React with Tailwind</small></a> <a href="https://github.com/jansensu19/Kincir-Tech-With-Tailwind"><Github color='black' size='2rem' className="git"/></a>
+            </SwiperSlide>
+            <SwiperSlide>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hZQzjHCNdSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <a href="https://superfinti.netlify.app/" className='web-portofolio'><small>Super Finti Dashboard With React</small></a> <a href="https://github.com/jansensu19/Dashboard-Super-Finti"><Github color='black' size='2rem' className="git"/></a>
             </SwiperSlide>
